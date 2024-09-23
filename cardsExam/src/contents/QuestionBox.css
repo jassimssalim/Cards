@@ -1,0 +1,23 @@
+/* QuestionBox.css */
+
+.question-box {
+    background-color: #ffffff; /* Default background */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the box */
+    margin: 10px 0; /* Space between boxes */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+    text-align: center; /* Center text */
+    font-size: 1.1rem; /* Font size */
+  }
+  
+  .question-box.active {
+    background-color: #007bff; /* Blue background when active */
+    color: #ffffff; /* White text color when active */
+  }
+  
+  .question-box:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+  }
+  

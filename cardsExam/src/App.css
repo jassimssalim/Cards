@@ -1,0 +1,39 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .detail-section {
+    width: 50%; /* Left side for question detail */
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-right: 1px solid #ccc; /* Border between sections */
+    overflow-y: auto; /* Scrollable if needed */
+  }
+  
+  .questions-section {
+    width: 50%; /* Right side for questions */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background */
+    overflow-y: auto; /* Scrollable if needed */
+  }
+  
+  .question-box {
+    background-color: #ffffff; /* Card-like feel */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the box */
+    margin: 10px 0; /* Space between boxes */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition for hover effects */
+    text-align: center; /* Center text */
+    font-size: 1.1rem; /* Font size */
+  }
+  
+  .question-box:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+  }
+  

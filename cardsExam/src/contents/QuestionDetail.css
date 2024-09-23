@@ -1,0 +1,43 @@
+/* QuestionDetail.css */
+
+.question-detail {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .question-detail h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .question-detail h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .question-detail ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-detail li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+  
+  .question-detail li:hover {
+    background-color: #e0f7fa; /* Light blue on hover */
+  }
+  
+  .question-detail li.selected {
+    background-color: #ffcccc; /* Red background for selected choice */
+  }
+  
